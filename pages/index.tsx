@@ -1,7 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import About from "../components/About";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import Skills from "../components/Skills";
+import WorkExperience from "../components/WorkExperience";
 
 export default function Home() {
 	return (
@@ -9,17 +12,26 @@ export default function Home() {
 			<Head>
 				<title>Nick's Portfolio</title>
 			</Head>
-			{/* Header */}
+
 			<Header />
-			{/* Hero */}
-			<section id="hero" className="snap-center">
+
+			<section id="hero" className="snap-start">
 				<Hero />
 			</section>
-			{/* About */}
 
-			{/* Experience */}
+			<section id="about" className="snap-center">
+				<About />
+			</section>
 
-			{/* Skills */}
+		
+			<section id="experience" className="snap-center">
+				<WorkExperience />
+			</section>
+
+		
+			<section id="skills" className="snap-start">
+				<Skills />
+			</section>
 
 			{/* Projects */}
 
