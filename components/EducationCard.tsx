@@ -4,7 +4,7 @@ import { DiCss3, DiHtml5, DiJavascript } from "react-icons/di";
 
 type Props = {};
 
-export default function ExperienceCard({}: Props) {
+export default function EducationCard({}: Props) {
 	return (
 		<article
 			className="flex flex-col rounded-lg items-center space-between space-y-7 

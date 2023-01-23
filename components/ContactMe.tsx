@@ -26,7 +26,7 @@ export default function ContactMe({}: Props) {
 			<div className="flex flex-col space-y-10">
 				<h4 className="text-4xl font-semibold text-center">
 					Lets work together... <br />
-					<span className="decoration-[#16e91c]/50 underline">
+					<span className="decoration-[#16e91c]/50 underline font-thin">
 						How do you take your coffee?
 					</span>
 				</h4>
@@ -75,7 +75,7 @@ export default function ContactMe({}: Props) {
 					/>
 					<button
 						type="submit"
-						className="bg-[#16e91c]/70 py-5 px-10 rounded-md text-black font-bold text-lg"
+						className="bg-[#16e91c]/70 py-5 px-10 rounded-md text-black font-bold text-lg hover:bg-[#16e91c] active:bg-[#16e91c]/70"
 					>
 						Submit
 					</button>
