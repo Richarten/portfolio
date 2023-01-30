@@ -3,6 +3,14 @@ import { motion } from "framer-motion";
 import EducationCard from "./EducationCard";
 
 type Props = {};
+const freeCodeCamp: string[] = [
+	"Basic Javascript",
+	"ES6",
+	"Debugging",
+	"Regular Expressions",
+	"Algorithm Scripting",
+	"Functional Programming",
+];
 
 export default function Education({}: Props) {
 	return (
@@ -16,7 +24,11 @@ export default function Education({}: Props) {
 				Education
 			</h3>
 			<div className="w-full h-[800px] flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#16e91c]/80">
-				<EducationCard />
+				<EducationCard
+					title="Javascript"
+					subtitle="freeCodeCamp"
+					skills={freeCodeCamp}
+				/>
 				<EducationCard />
 				<EducationCard />
 				<EducationCard />
