@@ -22,15 +22,12 @@ export default function EducationCard(props: {
 					<DiHtml5 className="h-10 w-10 rounded-full text-[#f17840]" />
 					<DiCss3 className="h-10 w-10 rounded-full text-[#7EDCFB]" />
 					<DiJavascript className="h-10 w-10 rounded-full text-[#f9c106]" />
-					{/* Tech used */}
-					{/* Tech used */}
-					{/* Tech used */}
 				</div>
 				<p className="uppercase py-5 text-gray-300">Skills obtained</p>
 				<ul className="list-disc space-y-2 ml-5 lg:text-lg">
-					{/*props.skills.map((skill) => (
-						<li>{skill}</li>
-					))*/}
+					{props.skills.map((skill) => (
+						<li key={skill}>{skill}</li>
+					))}
 				</ul>
 			</div>
 		</article>

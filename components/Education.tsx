@@ -1,16 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import EducationCard from "./EducationCard";
+import { freeCodeCamp, freeCodeCamp2, scrimba } from "./data";
 
 type Props = {};
-const freeCodeCamp: string[] = [
-	"Basic Javascript",
-	"ES6",
-	"Debugging",
-	"Regular Expressions",
-	"Algorithm Scripting",
-	"Functional Programming",
-];
 
 export default function Education({}: Props) {
 	return (
@@ -29,9 +22,17 @@ export default function Education({}: Props) {
 					subtitle="freeCodeCamp"
 					skills={freeCodeCamp}
 				/>
-				<EducationCard />
-				<EducationCard />
-				<EducationCard />
+				<EducationCard
+					title="Javascript"
+					subtitle="Javascript The Definitive Guide"
+					skills={freeCodeCamp}
+				/>
+				<EducationCard
+					title="React"
+					subtitle="freeCodeCamp"
+					skills={freeCodeCamp2}
+				/>
+				<EducationCard title="React" subtitle="Scrimba" skills={scrimba} />
 			</div>
 		</motion.div>
 	);
