@@ -33,7 +33,7 @@ function Hero({}: Props) {
 			<BackgroundCircles />
 			<img
 				className="relative rounded-full h-32 w-32 mx-auto object-cover"
-				src="https://mail.google.com/mail/u/0?ui=2&ik=1623564f1a&attid=0.1.1&permmsgid=msg-f:1754668931072586345&th=1859d6189efef269&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-NvQja3FjEVjzj2b68pfbgvcTcfSOktZgSNFgtCrIFHd3XZgcjSX3hXhDiHtYO-zLi5nR4v5swM3W5NkaNnD4spvM4dx-Vkpvj58UfH09RY-MmChKTnERzMkk&disp=emb"
+				src="https://i.imgur.com/XsgDdL9.jpg"
 				alt=""
 			/>
 			<div className="z-20">

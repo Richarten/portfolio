@@ -26,7 +26,7 @@ export default function About({}: Props) {
 						x: 0,
 					}}
 					viewport={{ once: true }}
-					src="https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/275259377_7123963081008214_7801814647424900080_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8ddNANmZ3NAAX9KT2N9&tn=gYR9h0NX0c2BKVz0&_nc_ht=scontent-dfw5-2.xx&oh=00_AfAkSHalrj04wOFDc2OT9PyQSRjAqaB7mHLum0MjQMVUeQ&oe=63C3C98F"
+					src="https://i.imgur.com/F3uxPzf.jpg"
 					className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px] "
 				/>
 

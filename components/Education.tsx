@@ -18,21 +18,29 @@ export default function Education({}: Props) {
 			</h3>
 			<div className="w-full h-[800px] flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#16e91c]/80">
 				<EducationCard
+					heading="https://www.freepnglogos.com/uploads/javascript-png/logo-html5-js-css3-png-transparent-logo-4.png"
 					title="Javascript"
 					subtitle="freeCodeCamp"
 					skills={freeCodeCamp}
 				/>
 				<EducationCard
+					heading="https://www.freepnglogos.com/uploads/javascript-png/logo-html5-js-css3-png-transparent-logo-4.png"
 					title="Javascript"
 					subtitle="Javascript The Definitive Guide"
 					skills={freeCodeCamp}
 				/>
 				<EducationCard
+					heading="https://img.icons8.com/color/256/react-native.png"
 					title="React"
 					subtitle="freeCodeCamp"
 					skills={freeCodeCamp2}
 				/>
-				<EducationCard title="React" subtitle="Scrimba" skills={scrimba} />
+				<EducationCard
+					heading="https://img.icons8.com/color/256/react-native.png"
+					title="React"
+					subtitle="Scrimba"
+					skills={scrimba}
+				/>
 			</div>
 		</motion.div>
 	);
