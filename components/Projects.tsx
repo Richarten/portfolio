@@ -38,13 +38,7 @@ export default function Projects({}: Props) {
 								E-commerce platform
 							</h4>
 							<p className="text-lg text-center md:text-left">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-								enim ad minim veniam, quis nostrud exercitation ullamco laboris
-								nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-								in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-								nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-								sunt in culpa qui officia deserunt mollit anim id est laborum.
+								I am a experienced Massage Therapist with a passion for web development. While massage therapy has taught me much about meeting the needs of clients, identifying and solving problems, and expanding on my abilities, I am excited to pivot to a career in software development that will allow me to develop these soft skills. 
 							</p>
 						</div>
 					</motion.div>
